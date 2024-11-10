@@ -1,0 +1,92 @@
+body {
+	background-color: #878686;
+	font-family: "Quicksand", normal;
+	font-size: 62.5%; /*1 em = 10px */
+	margin: 0;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+
+}
+.circle {
+	width: 30%;
+	background-color: rgb(49, 20, 152);
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	display:block;
+	transition: background .5s;
+	-webkit-transition: background .5s;
+	-moz-transition: background .5s;
+	o-transition: background .5s;
+} 
+
+h1 {
+	color: white;
+	background-color: #582c99;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#colour-to-guess {
+	display: block;
+	font-size: 2em;
+}
+
+#menu {
+	background: white;
+	height: 40px;
+	text-align: left;
+	color: black;
+}
+
+#result-message {
+	text-transform: uppercase;
+	color: #582c99;
+	text-align: right;
+	font-size: 2.5em;
+	font-weight: bold;
+	display: inline-block;
+	width: 80%;
+}
+
+button {
+	outline: none;
+	color: #582c99;
+	font-family: "Raleway", Sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	background-color: white;
+	height: 100%;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	o-transition: all 0.3s;
+}
+
+button:hover {
+	background-color: #582c99;
+	color: white;
+}
+
+.selected {
+	background-color: #582c99;
+	color: white;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+* {
+	border: 0px solid red;
+}
+
+
